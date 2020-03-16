@@ -2,16 +2,16 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 class Finch:  # Note that parens are optional if not inheriting from another class
-  def __init__(self, name, breed, description, age):
+  def __init__(self, name, species, description, age):
     self.name = name
-    self.breed = breed
+    self.species = species
     self.description = description
     self.age = age
 
 finches = [
-  Finch('Lolo', 'tabby', 'foul little demon', 3),
-  Finch('Sachi', 'tortoise shell', 'diluted tortoise shell', 0),
-  Finch('Raven', 'black tripod', '3 legged cat', 4)
+  Finch('Tweety', 'Saffron Finch', 'Golden yellow', 3),
+  Finch('Barry', 'Strawberry Finch', 'Deep red and maroon with white spots', 0),
+  Finch('Rainbow', 'Gouldian Finch', 'Bright red, cyan, violet, green, and gold', 4)
 ]
 
 def home(request):
