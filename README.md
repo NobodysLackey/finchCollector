@@ -37,12 +37,8 @@
 #### User Story #1
 ##### Jim loves birdwatching and wants a way to keep track of all of the birds he has spotted.
 #### As a user...
-* ##### I should be able to log in with my Google account.
-* ##### I should be able to search for a book.
-* ##### I should be able to add books to my shelf.
-* ##### I should be able to rate a book on my shelf.
-* ##### I should be able to change the rating of a book.
-* ##### I should be able to log out.
+* ##### I should be able to...
+* ##### I should be able to...
 ***
 
 ### ***Future Updates***
