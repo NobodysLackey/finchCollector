@@ -29,7 +29,7 @@
 ### ***Screenshots***
 
 ###### Screenshot Here
-![Screenshot]()
+![Types of Finches](../main_app/static/images/finches.jpg)
 ***
 
 ### ***User Experience***
@@ -49,5 +49,5 @@
 
 ### ***Credits***
 
-##### Credit: [Description]()
+##### Stying: [Materialize](https://materializecss.com/)
 ***
