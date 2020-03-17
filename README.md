@@ -29,7 +29,7 @@
 ### ***Screenshots***
 
 ###### Screenshot Here
-![Types of Finches](./static/images/finches.jpg)
+![Types of Finches](./main_app/static/images/finches.jpg)
 ***
 
 ### ***User Experience***
