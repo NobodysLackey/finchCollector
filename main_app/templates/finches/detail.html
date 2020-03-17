@@ -23,6 +23,17 @@
     </div>
   </div>
   <div class="col s6">
+    <form action="{% url 'add_sighting' finch.id %}" method="POST">
+      {% csrf_token %}
+      {{ sighting_form.as_p }}
+      <input type="submit" class="btn" value="Add Sighting">
+    </form>
+    <br>
+    {% if finch.spotted_today %}
+      <div class="card-panel teal-text center-align">{{finch.name}} has been spotted today</div>
+    {% else %}
+      <div class="card-panel red-text center-align">{{finch.name}} hasn't been spotted today</div>
+    {% endif %}
     <table class="striped">
       <thead>
         <tr><th>Date</th><th>Time of Day</th></tr>

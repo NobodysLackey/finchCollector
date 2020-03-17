@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from .models import Finch
 from .forms import SightingForm
@@ -33,3 +33,11 @@ def finches_detail(request, finch_id):
     'finch': finch,
     'sighting_form': sighting_form,
   })
+
+def add_sighting(request, finch_id):
+  form = SightingForm(request.POST)
+  if form.is_valid():
+    new_sighting = form.save(commit=False)
+    new_sighting.finch_id = finch_id
+    new_sighting.save()
+  return redirect('detail', finch_id=finch_id)
