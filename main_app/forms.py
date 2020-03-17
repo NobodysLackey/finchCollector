@@ -5,3 +5,4 @@ class SightingForm(ModelForm):
   class Meta:
     model = Sighting
     fields = ['date', 'spot']
+    

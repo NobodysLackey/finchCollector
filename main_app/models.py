@@ -24,13 +24,12 @@ class Finch(models.Model):
         return self.sighting_set.filter(date=date.today()).count() >= 1
 
 class Sighting(models.Model):
-    date = models.DateField()
+    date = models.DateField('sighting date')
     spot = models.CharField(
         max_length=1,
         choices=SPOTS,
         default=SPOTS[0][0]
     )
-
     finch = models.ForeignKey(Finch, on_delete=models.CASCADE)
 
     def __str__(self):
@@ -38,3 +37,4 @@ class Sighting(models.Model):
     
     class Meta:
         ordering = ['-date']
+    
