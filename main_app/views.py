@@ -9,12 +9,11 @@ class FinchCreate(CreateView):
 
 class FinchUpdate(UpdateView):
   model = Finch
-  # Let's disallow the renaming of a cat by excluding the name field!
   fields = ['species', 'description', 'age']
 
 class FinchDelete(DeleteView):
   model = Finch
-  success_url = '/cats/'
+  success_url = '/finches/'
 
 def home(request):
   return render(request, 'home.html')
