@@ -28,7 +28,7 @@
 
 ### ***Screenshots***
 
-###### Screenshot Here
+###### Types of Finches
 ![Types of Finches](./main_app/static/images/finches.jpg)
 ***
 

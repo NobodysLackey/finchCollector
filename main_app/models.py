@@ -21,7 +21,7 @@ class Finch(models.Model):
         return reverse('detail', kwargs={"finch_id": self.id})
     
     def spotted_today(self):
-        return self.sighting_set.filter(date=date.today()).count() >= 1
+        return self.sighting_set.filter(date=date.today()).count() > 0
 
 class Sighting(models.Model):
     date = models.DateField('sighting date')
