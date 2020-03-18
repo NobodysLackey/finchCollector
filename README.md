@@ -43,7 +43,7 @@
 
 ### ***Future Updates***
 
-- [x] ~~Mark out completed stretch goals~~
+- [x] ~~Create widget that displays whether the finch has been spotted on the current day~~
 - [ ] Add additional goals below and leave unchecked
 ***
 
