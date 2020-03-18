@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>Feather List</h1>
+
+{% for feather in feather_list %}
+  <a href="{% url 'feathers_detail' feather.id %}">
+    <div class="card">
+        <div class="card-content">
+            <span class="card-title">{{ feather.name }}</span>
+            <p>Color: {{ feather.color }}</p>
+        </div>
+    </div>
+  </a>
+{% endfor %}
+
+{% endblock %}

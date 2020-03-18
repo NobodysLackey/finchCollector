@@ -8,11 +8,22 @@ SPOTS = (
     ('N', 'Night')
 )
 
+class Feather(models.Model):
+  name = models.CharField(max_length=50)
+  color = models.CharField(max_length=20)
+
+  def __str__(self):
+    return self.name
+
+  def get_absolute_url(self):
+    return reverse('feathers_detail', kwargs={'pk': self.id})
+
 class Finch(models.Model):
     name = models.CharField(max_length=100)
     species = models.CharField(max_length=100)
     description = models.TextField(max_length=250)
     age = models.IntegerField()
+    feathers = models.ManyToManyField(Feather)
     
     def __str__(self):
         return self.name
@@ -22,6 +33,12 @@ class Finch(models.Model):
     
     def spotted_today(self):
         return self.sighting_set.filter(date=date.today()).count() > 0
+
+class Photo(models.Model):
+  url = models.CharField(max_length=200)
+  finch = models.ForeignKey(Finch, on_delete=models.CASCADE)
+  def __str__(self):
+      return f"Photo for finch_id: {self.finch_id} @{self.url}"
 
 class Sighting(models.Model):
     date = models.DateField('sighting date')
