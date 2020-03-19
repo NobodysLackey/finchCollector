@@ -18,4 +18,5 @@ urlpatterns = [
   path('feathers/create/', views.FeatherCreate.as_view(), name='feathers_create'),
   path('feathers/<int:pk>/update/', views.FeatherUpdate.as_view(), name='feathers_update'),
   path('feathers/<int:pk>/delete/', views.FeatherDelete.as_view(), name='feathers_delete'),
+  path('accounts/signup/', views.signup, name='signup'),
 ]
