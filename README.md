@@ -44,6 +44,7 @@
 ### ***Future Updates***
 
 - [x] ~~Create widget that displays whether the finch has been spotted on the current day~~
+- [x] ~~Add the ability for the user to upload their own photo for each finch~~
 - [ ] Add additional goals below and leave unchecked
 ***
 

@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% block content %}
 
-<h1>Feather List</h1>
+<h1>List of Feathers</h1>
 
 {% for feather in feather_list %}
   <a href="{% url 'feathers_detail' feather.id %}">
