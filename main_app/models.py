@@ -56,4 +56,3 @@ class Sighting(models.Model):
     
     class Meta:
         ordering = ['-date']
-    
