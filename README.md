@@ -13,7 +13,7 @@
 
 ### ***Technologies Used***
 
-![Technologies Used](static/../main_app/static/images/tech-banner.png)
+![Technologies Used](static/../main_app/static/images/tech-banner2.png)
 ***
 
 ### ***Getting Started***
