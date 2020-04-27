@@ -13,11 +13,7 @@
 
 ### ***Technologies Used***
 
-* ##### HTML5
-* ##### CSS3
-* ##### JavaScript
-* ##### Python/Django
-* ##### Heroku
+![Technologies Used](static/../main_app/static/images/tech-banner.png)
 ***
 
 ### ***Getting Started***
