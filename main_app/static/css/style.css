@@ -14,13 +14,11 @@ footer.page-footer {
 }
 
 .nav-wrapper {
-  background: rgba(0,33,51,1);
-  background: linear-gradient(144deg, rgba(208,162,175,1) 0%, rgba(89,0,15,1) 5%, rgba(0,33,51,1) 12%, rgba(91,211,219,1) 14%, rgba(90,39,161,1) 19%, rgba(249,205,47,1) 48%, rgba(23,130,35,1) 100%);
+  background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
 }
 
 .page-footer {
-  background: rgba(0,33,51,1);
-  background: linear-gradient(144deg, rgba(208,162,175,1) 0%, rgba(89,0,15,1) 5%, rgba(0,33,51,1) 12%, rgba(91,211,219,1) 14%, rgba(90,39,161,1) 19%, rgba(249,205,47,1) 48%, rgba(23,130,35,1) 100%);
+  background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
 }
 
 .main-img {
