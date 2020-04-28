@@ -25,3 +25,11 @@ footer.page-footer {
   height: 60vmin;
   width: 60vmin;
 }
+
+h1 {
+  font-family: 'Dr Sugiyama', cursive;
+}
+
+.brand-logo {
+  font-family: 'Dr Sugiyama', cursive;
+}

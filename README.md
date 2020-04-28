@@ -1,4 +1,4 @@
-# Finch Collector
+![Finch Collector](static/../main_app/static/images/banner.png)
 
 ### Date: 3/20/2020
 
