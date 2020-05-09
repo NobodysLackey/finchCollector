@@ -8,7 +8,7 @@
 
 ### ***Description***
 
-##### Finch Collector is a Django Framework application for tracking bird sightings.
+##### An app for tracking bird sightings created with Python3/Django.
 ***
 
 ### ***Technologies Used***
@@ -37,5 +37,5 @@
 
 ### ***Credits***
 
-##### Stying: [Materialize](https://materializecss.com/)
+##### CSS Stying: [Materialize](https://materializecss.com/)
 ***
