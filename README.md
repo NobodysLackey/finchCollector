@@ -37,5 +37,5 @@
 
 ### ***Credits***
 
-##### CSS Stying: [Materialize](https://materializecss.com/)
+##### CSS Stying: [Materialize 1.0.0](https://materializecss.com/)
 ***
